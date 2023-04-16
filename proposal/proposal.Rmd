@@ -1,0 +1,49 @@
+---
+title: "Climate footprint of Danish Consumption"
+author: 
+  - Akkoyun, Furkan[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 20080377, [Github Repo](https://github.com/furkanakkoyunn/20080377)
+
+
+# Introduction
+
+Global climate transformation is an urgent global challenge that needs a complete understanding of the diverse factors contributing to it. These include the consumption customs of different countries and economies. Denmark is no anomaly among developed countries with a high average of living. The climate footprint is the total share of greenhouse gases ejected throughout the life cycle of a product or service, including production, transport, and use. The climate footprint of Danish consumption is an important area of research. Danish consumption patterns are discussed over time, in several countries and economies, in several types of use, and in several industries. Concentrating on the roots of emissions and the causes for emissions in various sectors, this article examines how time, economies, types of use, and industries affect the environmental footprint of Danish consumption. An examination of the climate footprint of Danish consumption can shed light on the relationship between consumption, production, and greenhouse gas emissions. It can also supply insights into the environmental impact of consumption options in Denmark and beyond. The dataset used in the research was taken from Statistics Denmark. In the end, I formulated my question: "How do time, economies, types of use, and industries affect the climate footprint of Danish consumption in terms of greenhouse gas emissions? Then I focused more specifically on the articles related to my research question for the project.
+
+## Literature Review
+
+@batini:2020 recommends the use of revenue-neutral feebate schemes to strengthen mitigation incentives, particularly for transportation and agriculture, fisheries and forestry, though these schemes could also be applied more widely. 
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
